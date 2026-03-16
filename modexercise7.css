@@ -1,0 +1,50 @@
+body {background: pink;}
+footer { background-color: lightblue;
+	   font-family: Arial;
+	   color: darkblue;
+	   padding: 10px;
+	   border: 2px dashed darkblue;}
+#notice { width: 80%;
+          margin: 0 auto;}
+h1 { font-family: sans-serif;
+     font-size: 4em;
+	 background-color: rgba(0, 0, 0, 0.5);
+	 text-align: center;
+	 text-shadow: 3px 3px 5px black;
+	 padding: 10px;  }
+.headline { color: purple;
+            border-bottom: 2px dotted pink;
+			font-weight: bold;
+			padding-bottom: 5px; }
+
+#section {font-family: Arial;
+          color: red;
+		  font-size: small;
+		  
+		  width: 80%;
+		  margin: 0 auto;
+		  box-shadow: 3px 3px 6px gray;
+		  padding: 10px; }
+
+figure { text-align: center; }
+figure img { border-radius: 10px;
+			 box-shadow: 3px 3px 8px gray; }
+figcaption { font-style: italic;
+			 margin-top: 5px; }
+
+p { line-height: 1.5;
+	margin-bottom: 1em; }
+header, main, footer: { margin-bottom: 20px; } 
+progress { width: 300px;
+		   height: 20px; }
+.container { width: 80%;
+			 margin: 0 auto; }
+			 
+nav ul { list-style-type: none; 
+		}
+
+nav li { display: inline;
+		 margin-right: 110px;
+		 font-size: 20px;}
+		 
+a:hover { text-decoration:none; }
