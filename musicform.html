@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="container">
+<head>
+<style>
+	h1 {text-align: center;}
+	.container { width: 80%;
+			 margin: 0 auto; }
+	footer { width: 80%;
+			 margin: 0 auto; }
+	body { background-color: #121212;
+		   color: #ffffff; }
+	label { color: #b3b3b3; }
+	select { background-color: #1e1e1e;
+			 color: #ffffff; }
+</style>
+<title>Music Survey</title>
+<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<h1> Music survey </h1>
+		
+		<b><label for="name">Name: </label>
+		<input type="text" name="name" id="name" placeholder="Enter your name here"><br><br>
+		<label for="email">Email: </label>
+		<input type="text" name="email" id="email"><br><br>
+		<label for="mydate">Plan a date to listen to music</label><br>
+		<input type="date" name="myDate" id="myDate"><br><br>
+		<input type="submit">
+		<input type="reset"><br><br>
+		<fieldset>
+			<legend><b>When do you listen to music the most?:</b></legend>
+			<input type="radio" name="most" id="favd" value="whiledriving">While driving
+			<input type="radio" name="most" id="favsw" value="whilework">While studying/working
+			<input type="radio" name="most" id="favwo" value="workingout">Working out
+			<input type="radio" name="most" id="favbb" value="beforebed">Before bed
+			<input type="radio" name="most" id="favany" value="anytime">Anytime and day
+		</fieldset><br>
+		<fieldset>
+			<legend><b>How do you listen to music?</b></legend>
+			<input type="checkbox" name="how" id="spotify" value="spotify">Spotify
+			<input type="checkbox" name="how" id="applemusic" value="applemusic">Apple Music
+			<input type="checkbox" name="how" id="ytmusic" value="ytmusic">Youtube Music
+			<input type="checkbox" name="how" id="soundcloud" value="soundcloud">SoundCloud
+			<input type="checkbox" name="how" id="pandora" value="pandora">Pandora
+			
+		</fieldset>
+		<br>
+	</header>
+	<main>
+		
+		<select size="3" name="favgenre" id="favgenre">
+			<option>Select your favorite music genre</option>
+			<option value="rap">Rap</option>
+			<option value="rock">Rock</option>
+			<option value="pop">Pop</option>
+			<option value="country">Country</option>
+			<option value="multiplegenres">Multiple Genres</option>
+		</select>
+		
+		<h2>Thankyou!</h2>
+		<p>Hi! Thankyou foir visiting my Music Survey Form I hope you enjoyed! </p>
+		<label for="textbox">If you could listen to one artist forver, who would it be? Why?</label>
+		<textarea name="textbox" id="textbox" cols="60" rows="3"></textarea>
+		<form method="post"
+			  action="https://webdevbasics.net/scripts/demo.php">
+	</main>
+</div>
+<footer id="section">
+Copyright &copy; 2026 Jeremiah<br>
+  <a href="mailto:Jeremiah@Watkins.com">Jeremiah@Watkins.com</a>
+</footer>
+</body>
+</html>
+	
+		
