@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="container"
+<head>
+<title>HOP 9.6</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="ex8.css">
+<style>
+	form { display: grid;
+		   grid-template-rows: auto;
+		   grid-template-columns: 6em 1fr;
+		   grid-gap: 1em; gap: 1em;
+		   background-color: #EAEAEA;
+		   font-family: Arial, sans-serif;
+		   width: 60%; min-width: 20em;
+		   padding: 1.5em; 
+		   }
+	.container { width: 80%;
+			 margin: 0 auto; }
+	.form-label { grid-column: 1 / 2;
+				  padding-top: 0.4em; text-align: right; }
+	input { display: block; margin-top: 10px; }
+	textarea {display: block; margin-top: 10px; }
+	input[type="submit"] { grid-column: 2 / 3;
+						   width: 10em; margin-left: 0; }
+	@supports ( display: grid) {
+	}
+</style>
+<h1>Contact Us</h1>
+</head>
+<form>
+<body>
+	<span class="form-label">First Name:</span> <input type="text" name="fname" id="fname">
+	<span class="form-label">Last Name:</span> <input type="text" name="lname" id="lname">
+	<span class="form-label">Email:</span> <input type=":text" name="email" id="email">
+	<span class="form-label">Comments:</span>
+	<textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+	<input type="submit">
+	
+</form>	
+	 <footer>Copyright &copy; 2026 Jeremiah<br>
+  <a href="mailto:Jeremiah@Watkins.com">Jeremiah@Watkins.com</a>
+  </footer>
+</body>
+<div class="container"
+</html>
